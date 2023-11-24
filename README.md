@@ -54,6 +54,10 @@ Before using this Lambda function, ensure that you have:
 2. Set up the necessary event triggers or schedule for the Lambda function to run at the desired intervals.
 3. Monitor the SNS notifications for any missing security groups used by Amazon SageMaker models.
 
+## Scheduling 
+
+1. You can use AWS Event Bridge for scheduling this script to run using Lambda function. For more steps please (refer)[https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html]
+
 ## Acknowledgments
 
 - This Lambda function was created to address the need for validating security groups used by Amazon SageMaker models. Over period of time the underlying securtiy groups get deleted which will cause issues with Sagemaker Endpoint Auto Scaling. This may lead downtime aswell if not addressed timely. 
