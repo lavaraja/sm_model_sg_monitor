@@ -53,6 +53,11 @@ Before using this Lambda function, ensure that you have:
 1. Deploy the `lambda_function.py` script as a Lambda function in your AWS account.
 2. Set up the necessary event triggers or schedule for the Lambda function to run at the desired intervals.
 3. Monitor the SNS notifications for any missing security groups used by Amazon SageMaker models.
+   
+   `Sample SNS Notification`
+   ```
+   !!Missing Security Group!! Used by Sagemaker Model/Endpoint. [Action Required]
+   ```
 
 ## Scheduling 
 
