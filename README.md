@@ -45,7 +45,7 @@ Before using this Lambda function, ensure that you have:
 
 ## Configuration
 
-1. Replace `YOUR_SNS_TOPIC_ARN` with the actual ARN of your Amazon SNS topic in the `lambda_function.py` script.
+1. Replace `YOUR_SNS_TOPIC_ARN` with the actual ARN of your Amazon SNS topic in the `lambda_function.py` script. Also update the region to your AWS region.
 2. Ensure that the Lambda function's execution role has the necessary permissions to publish messages to the specified SNS topic.
 
 ## Usage
