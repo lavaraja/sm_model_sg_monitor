@@ -56,7 +56,7 @@ Before using this Lambda function, ensure that you have:
 
 ## Scheduling 
 
-1. You can use AWS Event Bridge for scheduling this script to run using Lambda function. For more steps please [refer](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html)
+1. You can use AWS Event Bridge for scheduling this script to run using Lambda function at regular intervel of choice. For more steps please [refer](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-run-lambda-schedule.html)
 
 ## Acknowledgments
 
