@@ -65,5 +65,5 @@ Before using this Lambda function, ensure that you have:
 
 ## Acknowledgments
 
-- This Lambda function was created to address the need for validating security groups used by Amazon SageMaker models. Over period of time the underlying securtiy groups get deleted which will cause issues with Sagemaker Endpoint Auto Scaling. This may lead downtime aswell if not addressed timely. 
+- The purpose of creating this Lambda function is to fulfill the requirement of validating the security groups utilized by Amazon SageMaker models. As time progresses, the deletion of these underlying security groups can potentially result in issues with Sagemaker Endpoint Auto Scaling. If left unattended, this situation could lead to downtime in production.
 
