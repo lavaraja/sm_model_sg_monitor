@@ -54,11 +54,7 @@ Before using this Lambda function, ensure that you have:
 2. Set up the necessary event triggers or schedule for the Lambda function to run at the desired intervals.
 3. Monitor the SNS notifications for any missing security groups used by Amazon SageMaker models.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
-- This Lambda function was created to address the need for validating security groups used by Amazon SageMaker models.
-- Special thanks to the Boto3 development team for providing the Python SDK for AWS services.
+- This Lambda function was created to address the need for validating security groups used by Amazon SageMaker models. Over period of time the underlying securtiy groups get deleted which will cause issues with Sagemaker Endpoint Auto Scaling. This may lead downtime aswell if not addressed timely. 
+
